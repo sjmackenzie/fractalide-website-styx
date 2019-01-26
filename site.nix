@@ -168,7 +168,7 @@ rec {
 
     gift = rec {
       title    = "";
-      section  = "gift-luceo-ceo";
+      section  = "gift-page";
       path     = "/gift/index.html";
       template = templates.page.full;
       layout   = templates.layout;
@@ -178,7 +178,7 @@ rec {
 
     gift-details = rec {
       title    = "";
-      section  = "gift-luceo-ceo";
+      section  = "luceo-ceo";
       path     = "/gift-details/index.html";
       template = templates.page.full;
       layout   = templates.layout;
